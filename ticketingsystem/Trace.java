@@ -4,7 +4,7 @@ import java.util.*;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-class ThreadId {
+/*class ThreadId {
     // Atomic integer containing the next thread ID to be assigned
     private static final AtomicInteger nextId = new AtomicInteger(0);
 
@@ -20,7 +20,7 @@ class ThreadId {
     public static int get() {
         return threadId.get();
     }
-}
+}*/
 
 public class Trace {
 	final static int threadnum = 4;
